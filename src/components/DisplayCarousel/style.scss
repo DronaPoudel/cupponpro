@@ -1,0 +1,32 @@
+.carouselWrapper {
+  background-color: #f6ebeb;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.slide {
+  margin: 20px 15px;
+  width: 300px !important;
+  height: 193px;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 15px;
+}
+.slide:hover {
+  font-size: larger;
+  width: 308px !important;
+  height: 199px;
+  transition: ease;
+}
+
+.slick-next {
+  background-color: #a62a22;
+  width: 37px !important;
+  height: 54px !important;
+  color: #fbfbfb;
+}
+.slick-next:hover {
+  background: #a62a22 !important;
+  color: #fbfbfb !important;
+}

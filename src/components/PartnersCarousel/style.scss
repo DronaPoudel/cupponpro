@@ -1,0 +1,23 @@
+.brandCarousel {
+  background-color: #f2f2f2;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+.BrandCarousel .slideContainer{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.BrandCarousel h2 {
+  color: #a62a22;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+.slideContainer{
+    // padding-top: 5rem;
+}
+.brandLogo {
+  height: 81px;
+  width: 151px !important;
+}

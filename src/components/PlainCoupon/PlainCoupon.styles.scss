@@ -1,0 +1,36 @@
+.cardBodyWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TCImageWrapper {
+  display: flex;
+  width: 100%;
+  height: 160px;
+  background: #292929;
+  border-radius: 5rem 5rem 0rem 0rem;
+}
+
+.cardTextWrapper {
+  padding: 0rem 2rem;
+  width: 210px;
+}
+
+.cardBottomWrapper {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  height: 4.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Cardbody-section h2 {
+  color: #a62a22;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}

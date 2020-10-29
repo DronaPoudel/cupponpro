@@ -1,0 +1,22 @@
+.commentWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.firstComp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 23%;
+}
+
+.secondComp{
+    width: 50%;
+}
+
+.rate{
+    height: 37px;
+}

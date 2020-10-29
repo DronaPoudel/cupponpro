@@ -1,0 +1,34 @@
+[
+  {
+    "category_name": "Food",
+    "category_image": "https://image.flaticon.com/icons/svg/3075/3075977.svg"
+  },
+  {
+    "category_name": "Fashion",
+    "category_image": "https://image.flaticon.com/icons/svg/3221/3221486.svg"
+  },
+  {
+    "category_name": "Gadjet House",
+    "category_image": "https://image.flaticon.com/icons/svg/686/686589.svg"
+  },
+  {
+    "category_name": "Bards",
+    "category_image": "https://image.flaticon.com/icons/svg/2909/2909523.svg"
+  },
+  {
+    "category_name": "Hotel",
+    "category_image": "https://image.flaticon.com/icons/svg/897/897061.svg"
+  },
+  {
+    "category_name": "Events",
+    "category_image": "https://image.flaticon.com/icons/svg/3174/3174383.svg"
+  },
+  {
+    "category_name": "Health & Fitness",
+    "category_image": "https://www.flaticon.com/premium-icon/icons/svg/2749/2749777.svg"
+  },
+  {
+    "category_name": "Furniture",
+    "category_image": "https://image.flaticon.com/icons/svg/3226/3226989.svg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "storeName" : "CL STORE",
+        "storeItem" : "Hoodie",
+        "storeItemImg" : "https://i.ibb.co/jGwf1D6/hoodie.png",
+        "storeItemInfo" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos"
+    },
+    {
+        "storeName" : "CL STORE",
+        "storeItem" : "Shoes",
+        "storeItemImg" : "https://i.ibb.co/k5M40Bf/Jutta.png",
+        "storeItemInfo" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos"
+    },
+    {
+        "storeName" : "CL STORE",
+        "storeItem" : "Shorts",
+        "storeItemImg" : "https://i.ibb.co/WDFVkDG/kattu.png",
+        "storeItemInfo" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos"
+    },
+    {
+        "storeName" : "CL STORE",
+        "storeItem" : "Gym Wear",
+        "storeItemImg" : "https://i.ibb.co/7Ybnf3N/shorts.png",
+        "storeItemInfo" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos"
+    }
+]

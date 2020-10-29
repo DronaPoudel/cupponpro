@@ -1,0 +1,39 @@
+body{
+  width: 100vw;
+  horizontal-scroll: none;
+}
+.Super-discounts h2 {
+  color: #a62a22;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+.slick-dots {
+  top: 23rem;
+  z-index: 1;
+  align-items: center;
+  width: 106% !important;
+}
+
+.slide:hover{
+  cursor: pointer;
+}
+
+.slides {
+  width: 100%;
+}
+.slick-prev:before, .slick-next:before{
+  display: none;
+}
+
+.slick-dots li button:before {
+  color: #818181 !important;
+  line-height: 40px !important;
+}
+
+.slick-dots li button:active{
+  color: #ffffff !important;
+}
+.slick-arrow{
+  background-color: red;
+}

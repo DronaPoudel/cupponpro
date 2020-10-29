@@ -1,0 +1,39 @@
+.searchBarWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.MuiInputLabel-formControl {
+  left: 3rem !important;
+}
+
+.search-icon {
+  // top: 3.5rem;
+  position: absolute;
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.searchbarForm {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.MuiInputBase-input {
+  margin-left: 2.5rem !important;
+}
+
+.makeStyles-search-4 {
+  background: transparent !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom-color: #5b5b5b !important;
+}

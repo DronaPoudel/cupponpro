@@ -1,0 +1,12 @@
+.DiscountWrapper {
+  width: 100%;
+  color: #707070;
+  font-size: 29px !important;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-weight: bold !important;
+}
