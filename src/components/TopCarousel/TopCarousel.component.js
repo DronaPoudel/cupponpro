@@ -27,12 +27,6 @@ const TopCarousel = () => {
         <div>
           <h3><img className="slides" src="banner-img3.png"></img></h3>
         </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
       </Slider>
   );
 };
