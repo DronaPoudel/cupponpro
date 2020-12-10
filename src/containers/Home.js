@@ -7,13 +7,21 @@ import { Footer } from './../components/Footer';
 import { TopCarousel } from './../components/TopCarousel';
 import { SuperSlider } from './../components/SuperSlider';
 import { PartnersCarousel } from './../components/PartnersCarousel';
+import {Categories} from './../components/Categories';
+// import {CategoryBar} from './../components/CategoryBar'
+
 // import { TrendingCupons } from './../components/Card';
+import {Header} from '../components/Header';
 
 function Home() {
   return (
     <div className='HomeWrapper'>
-      <SearchBar />
+      <Header />
       <User />
+      <Categories/>
+      <Categories/>
+
+      {/* <CategoryBar/> */}
       <CategoryRound />
       <TopCarousel />
       <SuperSlider />

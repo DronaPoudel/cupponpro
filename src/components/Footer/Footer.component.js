@@ -2,65 +2,96 @@ import React from 'react';
 import './style.scss';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+import EmailIcon from '@material-ui/icons/Email';
+import { Link } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+      width: '25ch',
+    },
+  },
+  button: {
+    margin: theme.spacing(1),
+  },
+}));
+// const classes = useStyles();
 
 const Footer = () => {
   return (
-    <div className="main">
-      <div className="footer">
-        <div className="col">
-          <h6>CONTACT US</h6>
-          <br />
-          <ul>
-            <li>+44 345 678 903</li>
-            <li>cupponpro@gmail.com</li>
-            <li>Find a Store</li>
-          </ul>
-        </div>
-        <div className="col">
-          <h6>COSTOMER SERVICE</h6>
-          <br />
-          <ul>
-            <li>Ordering & Payment</li>
-            <li>Shipping</li>
-            <li>Returns</li>
-            <li>FAQ</li>
-          </ul>
-        </div>
-        <div className="col">
+    <React.Fragment>
+<Grid container spacing = {5} className = "CPFooter" >
+<Grid item xs={12} md={6} container justify = "space-between" className = "Footer-cols">
+  <Grid item sm = {6} xs={12} container>
+    <Grid item xs = {6} >
+      <h6>Company</h6>
+        <ul>
+          {/* <Link to "/fromFooter" >About Us</Link> */}
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Blogs</li>
+          <li>FAQ</li>
+        </ul>
+    </Grid>
+    <Grid item xs = {6} >
+      <h6>Information</h6>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+          <li>Anti Spam Policy</li>
+        </ul>
+    </Grid>
+  </Grid>
+  <Grid item sm = {6} xs ={12} container>
+    <Grid item xs = {6} >
+      <h6>Special Pages</h6>
+        <ul>
+          <li>Become our Partner</li>
+          <li>Careers</li>
+          <li>Refer and Earn</li>
+        </ul>
+    </Grid>
+    <Grid item xs = {6} >
+      <h6>Customer Care</h6>
+        <ul>
+          <li>Support@cupponpro.com</li>
+          <li>Viber/WhatsApp 981234567</li>
+          <li>Phone 01-412345</li>
+        </ul>
+    </Grid>
+  </Grid>
+</Grid>
+<Grid item xs={12} md={6} container justify = "center" className = "Subscribe-col">
+<h6>Subscribe to cupponpro via email</h6>
 
-          <h6>INFORMATION</h6>
-          <br />
-          <ul>
-            <li>About Us</li>
-            <li>Work With Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-            <li>Press Enquiries</li>
-          </ul>
-        </div>
-        <div className="col">
-          <h6>SUBSCRIBE</h6>
+  <Grid item xs = {10}container justify = "flex-end"  >
+<p> Excepteur sint occaecat cupidatat </p>
 
-          <br />
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia
-          </p>
-          <br />
-          <form>
-            <TextField
-              className="txtinput"
-              variant="outlined"
-              placeholder="Email Address"
-            />
-            <Button variant="contained" size="large" className="btn">
-              Subscribe
-            </Button>
-          </form>
-        </div>
-        <div className="copyright">© CupponPro 2020</div>
-      </div>
-    </div>
+    <form noValidate autoComplete="off">
+      
+    <Grid container spacing = {3}>
+      <TextField id="outlined-basic" label="e-mail Address" variant="outlined" />
+      <Button size="large"
+          variant="contained"
+          color="primary"
+          // className={classes.button}
+          endIcon={<EmailIcon />}
+          >
+          SUBSCRIBE
+        </Button>
+    </Grid>
+
+    </form>
+  </Grid>
+  <Grid item xs = {2}>© CupponPro 2020</Grid>
+</Grid>
+</Grid>
+     
+  </React.Fragment>
   );
 };
 
